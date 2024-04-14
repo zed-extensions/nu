@@ -1,9 +1,10 @@
 {
   "name": "Nu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Mikayla Maki <mikayla@zed.dev>",
-    "Joseph Lyons <joseph@zed.dev>"
+    "Joseph Lyons <joseph@zed.dev>",
+    "Darren Schroeder"
   ],
   "description": "Nu language support for Zed",
   "repository": "https://github.com/zed-extensions/nu"
