@@ -1,0 +1,15 @@
+id = "nu"
+name = "Nu"
+description = "Nu language support for Zed"
+version = "0.0.2"
+schema_version = 1
+authors = [
+  "Mikayla Maki <mikayla@zed.dev>",
+  "Joseph Lyons <joseph@zed.dev>",
+  "Darren Schroeder",
+]
+repository = "https://github.com/zed-extensions/nu"
+
+[grammars.nu]
+repository = "https://github.com/nushell/tree-sitter-nu"
+commit = "b090676f0205f52debb93745b9ad788385583276"
