@@ -13,3 +13,7 @@ repository = "https://github.com/zed-extensions/nu"
 [grammars.nu]
 repository = "https://github.com/nushell/tree-sitter-nu"
 commit = "b090676f0205f52debb93745b9ad788385583276"
+
+[language_servers.nu]
+languages = ["Nu"]
+name = "nu"
