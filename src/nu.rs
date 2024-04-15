@@ -1,3 +1,4 @@
+use zed::LanguageServerId;
 use zed_extension_api::{self as zed, Result};
 
 struct NuExtension;
@@ -9,7 +10,7 @@ impl zed::Extension for NuExtension {
 
     fn language_server_command(
         &mut self,
-        _config: zed::LanguageServerConfig,
+        _: &LanguageServerId,
         worktree: &zed::Worktree,
     ) -> Result<zed::Command> {
         let path = worktree
