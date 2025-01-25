@@ -3,6 +3,7 @@ grammar = "nu"
 path_suffixes = ["nu"]
 line_comments = ["# "]
 autoclose_before = ";:.,=}])>` \n\t\""
+first_line_pattern = '^#!.*\b(?:nu)\b'
 brackets = [
     { start = "{", end = "}", close = true, newline = true },
     { start = "[", end = "]", close = true, newline = true },
