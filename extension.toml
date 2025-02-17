@@ -1,7 +1,7 @@
 id = "nu"
 name = "Nu"
 description = "Nushell language support for Zed"
-version = "0.0.4"
+version = "0.0.5"
 schema_version = 1
 authors = [
   "Mikayla Maki <mikayla@zed.dev>",
@@ -12,7 +12,7 @@ repository = "https://github.com/zed-extensions/nu"
 
 [grammars.nu]
 repository = "https://github.com/nushell/tree-sitter-nu"
-commit = "b090676f0205f52debb93745b9ad788385583276"
+commit = "2a153c88d5d44d96653057c7cc14292f4e641bef"
 
 [language_servers.nu]
 languages = ["Nu"]
