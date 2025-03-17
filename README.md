@@ -12,7 +12,7 @@ which may improve performance as complicated Nushell configurations can slow dow
   "lsp": {
     "nu": {
       "binary": {
-        "command": "nu",
+        "path": "nu",
         "arguments": ["--config", "~/.config/nushell/lsp.nu", "--lsp"]
       }
     }
