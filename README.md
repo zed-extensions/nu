@@ -24,7 +24,7 @@ which may improve performance as complicated Nushell configurations can slow dow
 
 ```nushell
 # Configure PATH to search for external command completions
-$env.PATH = $env.PATH
+$env.path = $env.path
 | split row (char esep)
 | append ($env.HOME | path join ".cargo" "bin")
 | uniq
