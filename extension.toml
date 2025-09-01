@@ -1,7 +1,7 @@
 id = "nu"
 name = "Nu"
 description = "Nushell language support for Zed"
-version = "0.0.6"
+version = "0.0.7"
 schema_version = 1
 authors = [
   "Mikayla Maki <mikayla@zed.dev>",
