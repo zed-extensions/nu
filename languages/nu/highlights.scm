@@ -266,9 +266,9 @@ key: (identifier) @property
 
 (shebang) @keyword.directive
 (comment) @comment
-((comment)+ @comment.documentation @spell
+((comment)+ @comment.documentation
   .
   (decl_def))
 
 (parameter
-  (comment) @comment.documentation @spell)
+  (comment) @comment.documentation)
