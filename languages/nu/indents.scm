@@ -1,29 +1,16 @@
 ; Forked from https://github.com/nushell/tree-sitter-nu
 ; Copyright (c) 2019 - 2022 The Nushell Project Developers
 ; Licensed under the MIT license.
-[
-  (expr_parenthesized)
-  (parameter_bracks)
-  (ctrl_match)
 
-  (val_record)
-  (val_list)
-  (val_closure)
-  (val_table)
+; Changed to follow Zed's documented pattern
 
-  (block)
-] @indent.begin
+(expr_parenthesized ")" @end) @indent
+(parameter_bracks "]" @end) @indent
+(ctrl_match) @indent
 
-[
-  "}"
-  "]"
-  ")"
-] @indent.end
+(val_record "}" @end) @indent
+(val_list "]" @end) @indent
+(val_closure "}" @end) @indent
+(val_table "]" @end) @indent
 
-[
-  "}"
-  "]"
-  ")"
-] @indent.branch
-
-(comment) @indent.auto
+(block "}" @end) @indent
