@@ -384,12 +384,12 @@ key: (identifier) @property
 
 (comment) @comment
 
-((comment)+ @comment.documentation @spell
+((comment)+ @comment.doc
   .
   (decl_def))
 
 (parameter
-  (comment) @comment.documentation @spell)
+  (comment) @comment.doc)
 
 (command
   head: ((cmd_identifier) @_cmd
