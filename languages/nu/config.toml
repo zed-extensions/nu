@@ -1,6 +1,6 @@
 name = "Nu"
 grammar = "nu"
-path_suffixes = ["nu"]
+path_suffixes = ["nu", "nuon"]
 kernel_language_names = ["nushell", "nu"]
 line_comments = ["# "]
 autoclose_before = ";:.,=}])>` \n\t\""
